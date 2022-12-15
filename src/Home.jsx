@@ -2,8 +2,12 @@
 // import Contact from "./components/home/Time";
 // import Contact from "./components/home/Post";
 // import Contact from "./components/home/Newsfeed";
+import DataFetching from "./components/DataFetching";
+import { Link } from "react-router-dom";
+
 
 function Home() {
+
   return (
     <div className="container-sm py-2 my-3">
       {/* ROW WITH LEFT AND RIGHT PANEL ***********************************************/}
@@ -31,15 +35,15 @@ function Home() {
         <div className="col-md-7 shadow border border-1 rounded-2 p-2">
           {/* POST COMPONENT **********************************************************/}
           <div className="m-3 p-2 border border-1 rounded-2">
-            <h4>Post Title</h4>
-            <p>Post Body</p>
+            <h4><DataFetching/></h4>
+            <p><DataFetching/></p>
           </div>
           {/* ANOTHER POST COMPONENT **************************************************/}
           <div className="m-3 p-2 border border-1 rounded-2">
-            <h4>Post Title</h4>
-            <p>Post Body</p>
+            <h4><DataFetching/></h4>
+            <p><DataFetching/></p>
           </div>
-          <button className="btn btn-warning ms-3">ADD MORE</button>
+          <Link className="m-3">See more</Link>
         </div>
         {/* END OF RIGHT PANEL - NEWS FEED COMPONENT **********************************/}
       </div>
