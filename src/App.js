@@ -4,12 +4,15 @@ import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 
+import Footer from "./components/Footer";
+// import Layout from "./Layout";
+
 function App() {
   return (
     <div>
       <Navbar />    
 
-      <div>
+      <div className="page-padding">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -17,6 +20,8 @@ function App() {
           </Routes>        
       </div>
 
+      {/* FOOTER HERE */}
+      <Footer />
 
     </div>
   );

@@ -7,3 +7,20 @@
   font-family: 'Cascadia Code', sans-serif;
 
 }
+
+body { 
+  /* background: #2e3047; */
+}
+
+.page-padding {
+  padding-left: 6.25em;
+  padding-right: 6.25em;
+}
+
+@media screen and (max-width: 576px) {
+  .page-padding {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
