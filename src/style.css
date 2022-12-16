@@ -7,12 +7,6 @@
   font-family: 'Cascadia Code', sans-serif;
 }
 
-/* DARK BACKGROUND, WHITE TEXT */
-/* body { 
-  background: #2e3047;
-  color: white;
-} */
-
 .page-padding {
   padding-left: 6.25em;
   padding-right: 6.25em;
@@ -25,47 +19,6 @@
   }
 }
 
-/* .navbar {
-  background-color: white;
-} */
-
-.nav ul {
-  padding: 0;
-  margin: 0;
-  
-  list-style: none;
-  display: flex;
-}
-
-.nav li {
-  color: black;
-  padding-left: 1rem;
-  text-decoration: none;
-}
-
-.nav a {
-  /* color: inherit; */
-  color: black;
-  text-decoration: none;
-  height: 100%;
-  display: flex;
-  align-items: stretch;
-}
-
-.nav li.active {
-  background-color: red;
-  color: red;
-  font-weight: bold;
-}
-
-.nav li.hover {
-  background-color: #3bba9c;
-}
-
-.active-link {
-  color: red;
-}
-
 .text-smaller {
   font-size: 0.9rem;
 }
@@ -73,4 +26,41 @@
 .feeds-panel {
   height: 500px;
   overflow: scroll;
+}
+
+nav {
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3f51b5;
+  box-shadow: 0 5px 10px #ccc;
+}
+
+/* Basic styles for nav links */
+nav a {
+  display: flex;
+  align-items: center;
+  /* align-items: stretch; */
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 100%;
+  text-decoration: none;
+}
+
+/* Specific styles for non-active links */
+.link {
+  color: black;
+}
+
+/* Specific styles for active links */
+.link-active {
+  color: black;
+  background: orange;
+  border-radius: 5px;
+}
+
+.content {
+  margin-top: 50px;
+  text-align: center;
 }
