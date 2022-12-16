@@ -1,17 +1,19 @@
 import { Route, Routes } from "react-router-dom";
 // import Layout from "./Layout";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
+import Navigation from "./Navigation";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 import Nopage from "./Nopage";
 import Footer from "./Footer";
 
+
 function App() {
 
   return (
     <div>
-      <Navbar />
+      <Navigation />
       <div className="page-padding">
           <Routes>
             <Route path="/" element={<Home />} />
