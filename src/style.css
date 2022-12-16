@@ -5,5 +5,62 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Cascadia Code', sans-serif;
+}
 
+/* DARK BACKGROUND, WHITE TEXT */
+/* body { 
+  background: #2e3047;
+  color: white;
+} */
+
+.page-padding {
+  padding-left: 6.25em;
+  padding-right: 6.25em;
+}
+
+@media screen and (max-width: 576px) {
+  .page-padding {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  
+  list-style: none;
+  display: flex;
+}
+
+.nav li {
+  color: black;
+  padding-left: 1rem;
+  text-decoration: none;
+}
+
+.nav a {
+  /* color: inherit; */
+  color: black;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.nav li.active {
+  background-color: red;
+  color: red;
+}
+
+.nav li.hover {
+  background-color: #3bba9c;
+}
+
+.active-link {
+  color: red;
+}
+
+.text-smaller {
+  font-size: 0.9rem;
 }
