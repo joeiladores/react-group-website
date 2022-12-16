@@ -22,7 +22,7 @@ function App() {
             <Route path="*" element={<Nopage />} />
           </Routes>
       </div>
-      <Footer />
+      <Footer />    
     </div>
   );
 }
