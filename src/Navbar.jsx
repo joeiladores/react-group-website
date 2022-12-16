@@ -1,6 +1,6 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
-export default function Navbar() {
+function Navbar() {
   
   return (
 
