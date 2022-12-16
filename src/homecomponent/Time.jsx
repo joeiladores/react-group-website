@@ -19,8 +19,8 @@ function Time() {
 
   return (
     <div className="m-3 p-2 border border-1 rounded-2">
-      <h5 className="text-smaller">Time: {time}</h5>
-      <h5 className="text-smaller">Date: {date}</h5>
+      <h5>Time: {time}</h5>
+      <h5>Date: {date}</h5>
     </div>
   );
 }
