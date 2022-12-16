@@ -4,7 +4,7 @@ function Navbar() {
   
   return (
 
-    <nav className="navbar navbar-expand-lg shadow page-padding sticky-top py-4">
+    <nav className="navbar navbar-expand-lg shadow page-padding py-4 sticky-top bg-light">
       <div className="container-fluid px-5">
         <Link to="/" className="navbar-brand"><i class="fa-regular fa-file-code"></i><i class="fa-solid fa-g"></i>roup 3</Link>
         <button
@@ -21,13 +21,13 @@ function Navbar() {
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item"><Link to="/" className="nav-link active" >
+            <li><Link to="/" className="nav-link px-3" >
               Home
             </Link></li>
-            <li class="nav-item"><Link to="/about" className="nav-link px-3">
+            <li><Link to="/about" className="nav-link px-3">
               About
             </Link></li>
-            <li class="nav-item"><Link to="/contact" className="nav-link">
+            <li><Link to="/contact" className="nav-link">
               Contact
             </Link></li>
           </ul>
@@ -92,5 +92,5 @@ export default Navbar;
 //      <li className={isActive ? "active" : ""}>
 //          <Link to={to} {...props}>{children}</Link>
 //      </li>
-//  )
+//  );
 //}

@@ -4,10 +4,7 @@ function Posts() {
 
   const [posts, setPosts] = useState([]);
 
-  
-
-
-  // TODO: set first render to 5 posts, then additional 5 posts......
+    // TODO: set first render to 10 posts, then additional 10 posts......
 
 
 
@@ -16,7 +13,7 @@ function Posts() {
       .then(response => response.json())
       .then(data => {
         // setPosts(data);
-        setPosts(data.slice(0,5));
+        setPosts(data.slice(0,20));
       });
   }, []);
 

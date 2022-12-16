@@ -7,7 +7,7 @@ function Newsfeed() {
 
 
   return (
-    <div className="col-md-7 shadow border border-1 rounded-2 p-2">
+    <div className="col-md-7 shadow border border-1 rounded-2 p-2 feeds-panel">
       {/* POST COMPONENT **********************************************************/}
       {/* <Posts count={count}/> */}
       <div className="text-center">
